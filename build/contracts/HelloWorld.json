@@ -1,0 +1,46 @@
+{
+  "contract_name": "HelloWorld",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "balance",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x60606040523415600e57600080fd5b5b6103e86000555b5b6090806100256000396000f300606060405263ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663b69ef8a88114603c575b600080fd5b3415604657600080fd5b604c605e565b60405190815260200160405180910390f35b600054815600a165627a7a72305820e819e1573ed800a4521114734c26fc5bd2780fdcbfad43e3ea13577f22602ca50029",
+  "networks": {
+    "1503959495608": {
+      "events": {},
+      "links": {},
+      "address": "0x1a9ad31b0c42d5d135130b62be4cb4301ddea318",
+      "updated_at": 1503959564362
+    },
+    "1503960310933": {
+      "events": {},
+      "links": {},
+      "address": "0x0f96adf016f6a9771f4ff796ab463027b9b6b17e",
+      "updated_at": 1503960330809
+    },
+    "1503961336817": {
+      "events": {},
+      "links": {},
+      "address": "0x00eb1afad2c7d024e7fd442cde3cfe5f34d261ab",
+      "updated_at": 1503961352993
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1503961352993
+}
