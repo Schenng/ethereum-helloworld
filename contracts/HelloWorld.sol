@@ -23,8 +23,8 @@ contract HelloWorld {
 		
     }
 
-    function getBalance() constant returns (uint _balance) {
-    	return balances[msg.sender];
+    function getBalance(address _user) constant returns (uint _balance) {
+    	return balances[_user];
     }
 
 
